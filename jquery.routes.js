@@ -79,7 +79,7 @@
 					regexp: /\w+?/
 				},
 				'string':	{
-					regexp: /[\s\w]+?/
+					regexp: /[\s\w\-\_]+?/
 				},
 				'datetime':		{
 					regexp: /(\d{4})\-(\d{2})\-(\d{2})T(\d{2}):(\d{2}):(\d{2})\.(\d{3})Z/,
